@@ -71,3 +71,16 @@ footer img{
 	width: 5%;
 }
 
+
+ a{
+
+ 	transition font-size: 2s;
+ 	transition color: 2s;
+ }
+
+ a:hover{
+ 	color: floralwhite;
+ 	font-size: 1.7rem;
+
+
+ }
