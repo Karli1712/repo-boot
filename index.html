@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-------------Mi css------------------->
+
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <!------------inicia nav--------------->
+<nav class="navbar navbar-expand-lg navbar-light bg-nav" id="botonera">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"></a>
+    <img src="img/logo_sugar.png" alt="logo de dulceria">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#"> <h4>Nosotros</h4></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> <h4>Snacks</h4></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><h4>Bebidas </h4></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><h4>Promociones</h4> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> <h4>Contacto</h4> </a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>   
+     <!------------end nav--------------->
+     <!------------incia carrusel--------------->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+   <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+   <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/head1.jpg" class="d-block w-100" alt="Mujer con paleta de dulce">
+    </div>
+    <div class="carousel-item">
+      <img src="img/head2.jpg" class="d-block w-100" alt="niña con paleta de dulce">
+    </div>
+    <div class="carousel-item">
+      <img src="img/head4.jpg" class="d-block w-100" alt="mujer con paleta">
+    </div>
+  </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+     <!------------termina carrusel--------------->
+     <main>
+       <section class="py-3">
+         <div class="container-fluid">
+           <div class="row">
+           <h2 class="text-center">Nosotros</h2>
+            <article class="col-md-6 col-lg-9">
+              <h2 class="text-sm-start text-md-center text-lg-center">Nuestra Historia</h2>
+              <p>En el año 2018 emprendimos un viaje en el que nos dispusimos a probar los mejores snacks de cada país, probamos cosas maravillosas y alguna que otra aventura exótica para el paladar, al compartir nuestra mejor selección con nuestros amigos, nos dimos cuenta de que podemos llevar estas experiencias a más personas, así nace nuestro sueño, que hoy disfrutamos contigo.</p>
+          </article>
+           <article class="col-md-6 col-lg-3">
+          <img src="img/us.jpg" alt="familia comprando en el supermercado" class="w-100 d-block mb-2">
+            </article>
+           </div>
+         </div>
+
+       </section>
+     </main>
+
+    <section class="py-3">
+    <div class="container-fluid bg-blue">
+    <div class="row">
+    <h2 class="text-start">Contáctanos</h2>
+    <article class="col-md-6 col-lg-9">
+     <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Verificado</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+</article>
+
+<article class="col-sm-12 col-md-12 col-lg-3 ">
+<img src="img/contacto.jpg" class="w-100 img-rounded">
+</article>
+
+</div>
+</div>
+</section>
+
+ <footer class="bg-pink py-3 text-center
+text-footer">
+<h5>Siguenos en nuestras redes sociales</h5> 
+<img src="img/logo_insta.png"> 
+<img src="img/logo_facebook.png">
+</footer>
+zz
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

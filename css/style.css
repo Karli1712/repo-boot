@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+html{
+	font-size: 62.5%;
+}
+h1{
+	color: #ed458d;
+	font-size: 4rem;
+	font-weight: 500;
+}
+
+h2{
+	color: deepskyblue;
+	font-size: 3rem;
+	font-weight: 400;
+}
+h3{
+	color: #ed458d;
+	font-size: 2rem;
+	font-weight: 300;
+}
+p{
+	color: black;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 300;
+}
+
+h1,
+h2,
+h3{
+font-family: 'Poppins', sans-serif;;
+
+}
+
+h4 {
+	color: deepskyblue;
+	font-size: 2rem;
+	font-weight: 200;
+    font-family: 'Pacifico', cursive;
+;
+
+}
+h5{
+	color: white;
+	font-size: 2.5 rem;
+	font-weight: 200px;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.bg-nav{
+	background-color: white;
+
+}
+
+#botonera img{
+	width: 100px;
+}
+
+.bg-blue{
+	background-color: #E3FFFE;
+	padding: 20px;
+}
+
+.bg-pink {
+	background-color: #ed458d;
+}
+
+footer img{
+	width: 5%;
+}
+
